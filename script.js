@@ -156,7 +156,7 @@ restartButton.addEventListener("click", () => {
 // Начало викторины
 loadQuestion();
 let timer;
-const timeLimit = 15; // секунд на вопрос
+const timeLimit = 60; // секунд на вопрос
 
 function startTimer() {
     let timeLeft = timeLimit;
